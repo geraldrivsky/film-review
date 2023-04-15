@@ -1,0 +1,25 @@
+.container {
+  padding: 35px 25px;
+  background-color: #F4F4F4;
+  min-height: 100vh;
+
+  @media (max-width: 450px) {
+    padding: 25px 15px;
+
+    .films {
+      justify-content: center;
+    }
+  }
+}
+
+.films {
+  margin-bottom: 40px;
+}
+
+.best {
+  @media (max-width: 450px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

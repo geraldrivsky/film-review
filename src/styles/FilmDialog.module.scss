@@ -1,0 +1,32 @@
+.content {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+
+  @media (max-width: 450px) {
+    grid-template-columns: inherit;
+
+    .img {
+      display: flex;
+      justify-content: center;
+    }
+
+    .buttons {
+      margin-top: 8px;
+    }
+  }
+}
+
+.img {
+  grid-row: 1 / -1;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.buttons {
+  margin-top: auto;
+}

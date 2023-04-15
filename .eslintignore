@@ -1,0 +1,7 @@
+node_modules
+public
+build
+src/public
+src/dev
+README.md
+.editorconfig
