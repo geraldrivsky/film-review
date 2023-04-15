@@ -1,6 +1,7 @@
 {
   "name": "react-project",
   "version": "0.1.0",
+  "homepage": "https://geraldrivsky.github.io/film-review",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -22,6 +23,8 @@
     "typescript": "^4.7.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -64,6 +67,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^5.0.0",
     "husky": "^8.0.1",
     "prettier": "2.7.1",
     "sass": "^1.53.0",
